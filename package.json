@@ -1,0 +1,11 @@
+{
+  "name": "react-portfolio",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "deploy": "bash deploy-all.sh"
+  },
+  "devDependencies": {
+    "gh-pages": "^6.3.0"
+  }
+}
