@@ -59,6 +59,29 @@ startButton.addEventListener('click', async () => {
 
         resultText.textContent = `두 얼굴의 궁합 점수는 ${similarity}% 입니다!`;
 
+        // --- Visualize Landmarks ---
+        const displaySize = { width: 200, height: 200 };
+
+        // Canvas 1
+        const canvas1 = document.getElementById('canvas1');
+        image1.style.display = 'none';
+        canvas1.style.display = 'block';
+        faceapi.matchDimensions(canvas1, displaySize);
+        const resizedDetections1 = faceapi.resizeResults(detections1, displaySize);
+        const ctx1 = canvas1.getContext('2d');
+        ctx1.drawImage(image1, 0, 0, displaySize.width, displaySize.height);
+        faceapi.draw.drawFaceLandmarks(canvas1, resizedDetections1);
+
+        // Canvas 2
+        const canvas2 = document.getElementById('canvas2');
+        image2.style.display = 'none';
+        canvas2.style.display = 'block';
+        faceapi.matchDimensions(canvas2, displaySize);
+        const resizedDetections2 = faceapi.resizeResults(detections2, displaySize);
+        const ctx2 = canvas2.getContext('2d');
+        ctx2.drawImage(image2, 0, 0, displaySize.width, displaySize.height);
+        faceapi.draw.drawFaceLandmarks(canvas2, resizedDetections2);
+
     } catch (error) {
         console.error(error);
         resultText.textContent = '오류가 발생했습니다. 다시 시도해주세요.';

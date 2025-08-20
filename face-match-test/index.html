@@ -14,11 +14,13 @@
             <h2>사용자 1</h2>
             <input type="file" id="imageUpload1" accept="image/*">
             <img id="image1" class="preview" src="#" alt="미리보기">
+            <canvas id="canvas1"></canvas>
         </div>
         <div class="upload-box">
             <h2>사용자 2</h2>
             <input type="file" id="imageUpload2" accept="image/*">
             <img id="image2" class="preview" src="#" alt="미리보기">
+            <canvas id="canvas2"></canvas>
         </div>
     </div>
     <button id="start-button">궁합 분석 시작</button>
@@ -26,7 +28,6 @@
         <h2>분석 결과</h2>
         <p id="loading-message" style="display: none;">얼굴을 분석하고 있습니다. 잠시만 기다려주세요...</p>
         <p id="result-text"></p>
-        <canvas id="result-canvas"></canvas>
     </div>
     <script defer src="https://cdn.jsdelivr.net/npm/face-api.js@0.22.2/dist/face-api.min.js"></script>
     <script defer src="script.js"></script>
