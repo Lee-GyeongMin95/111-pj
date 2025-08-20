@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/111-pj/lotto-generator/static/css/main.8127e7ad.css",
-    "main.js": "/111-pj/lotto-generator/static/js/main.9c40f126.js",
+    "main.css": "/111-pj/lotto-generator/static/css/main.f85268dc.css",
+    "main.js": "/111-pj/lotto-generator/static/js/main.acd10c8d.js",
     "static/js/453.c6b1acf5.chunk.js": "/111-pj/lotto-generator/static/js/453.c6b1acf5.chunk.js",
     "index.html": "/111-pj/lotto-generator/index.html",
-    "main.8127e7ad.css.map": "/111-pj/lotto-generator/static/css/main.8127e7ad.css.map",
-    "main.9c40f126.js.map": "/111-pj/lotto-generator/static/js/main.9c40f126.js.map",
+    "main.f85268dc.css.map": "/111-pj/lotto-generator/static/css/main.f85268dc.css.map",
+    "main.acd10c8d.js.map": "/111-pj/lotto-generator/static/js/main.acd10c8d.js.map",
     "453.c6b1acf5.chunk.js.map": "/111-pj/lotto-generator/static/js/453.c6b1acf5.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.8127e7ad.css",
-    "static/js/main.9c40f126.js"
+    "static/css/main.f85268dc.css",
+    "static/js/main.acd10c8d.js"
   ]
 }

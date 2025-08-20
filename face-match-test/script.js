@@ -93,3 +93,5 @@ startButton.addEventListener('click', async () => {
 // Disable button until models are loaded
 startButton.disabled = true;
 startButton.textContent = '모델 로딩 중...';
+
+
