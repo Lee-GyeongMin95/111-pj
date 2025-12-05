@@ -1,0 +1,26 @@
+{
+  "Technology": [
+    { "name": "Apple Inc.", "ticker": "AAPL" },
+    { "name": "Microsoft Corporation", "ticker": "MSFT" },
+    { "name": "NVIDIA Corporation", "ticker": "NVDA" },
+    { "name": "Alphabet Inc.", "ticker": "GOOGL" }
+  ],
+  "Healthcare": [
+    { "name": "Johnson & Johnson", "ticker": "JNJ" },
+    { "name": "Eli Lilly and Company", "ticker": "LLY" },
+    { "name": "UnitedHealth Group Incorporated", "ticker": "UNH" }
+  ],
+  "Financial Services": [
+    { "name": "JPMorgan Chase & Co.", "ticker": "JPM" },
+    { "name": "Visa Inc.", "ticker": "V" },
+    { "name": "Berkshire Hathaway Inc.", "ticker": "BRK-B" }
+  ],
+  "Consumer Cyclical": [
+    { "name": "Amazon.com, Inc.", "ticker": "AMZN" },
+    { "name": "Tesla, Inc.", "ticker": "TSLA" }
+  ],
+  "Industrials": [
+    { "name": "Caterpillar Inc.", "ticker": "CAT" },
+    { "name": "General Electric Company", "ticker": "GE" }
+  ]
+}
